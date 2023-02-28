@@ -26,11 +26,11 @@
 
 > Core/CoreApp.js: Template for apps that use my engine; It has a instance of the engine:
 
-`
+```javascript
 class Application extends core.CoreApp {
-constructor(name) {
-super(name);
+  constructor(name) {
+    super(name)
+  }
 }
-}
+```
 
-`
